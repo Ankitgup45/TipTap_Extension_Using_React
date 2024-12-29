@@ -2,7 +2,7 @@
 
 
 
-Step1:-pull the project by coping the link from codes dropdownlist.
+Step1:-pull the project by coping the link from codes dropdownlist.(https://github.com/Ankitgup45/TipTap_Extension_Using_React.git)
 
 Step2:- open vs code and click clone git repository. Paste the link and click enter.
 
