@@ -1,0 +1,45 @@
+/* Body and general styling */
+body {
+    background-color: #f0f0f0;  /* Light grey background */
+    color: #333;                /* Dark text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Highlight button styles */
+  button {
+    padding: 12px 25px;                  /* More padding for a bigger button */
+    background-color: #ff6347;           /* Tomato red background */
+    color: white;                        /* White text */
+    border: none;                        /* Remove border */
+    border-radius: 8px;                  /* Rounded corners */
+    font-size: 16px;                     /* Larger text */
+    font-weight: bold;                   /* Bold text */
+    cursor: pointer;                    /* Pointer cursor on hover */
+    transition: all 0.3s ease;           /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-transform: uppercase;           /* Uppercase text for emphasis */
+    outline: none;                       /* Remove outline */
+  }
+  
+  /* Highlight button hover effect */
+  button:hover {
+    background-color: #ff4500;           /* Darker tomato color on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+    transform: translateY(-2px);         /* Lift the button slightly */
+  }
+  
+  /* Highlight button active state */
+  button:active {
+    background-color: #ff0000;           /* Bright red when clicked */
+    transform: translateY(0);            /* Reset lifting effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Reset shadow */
+  }
+  
+  /* Highlight text background */
+  .highlight {
+    background-color: yellow;  /* Yellow highlight */
+    color: black;               /* Text color */
+  }
+  
